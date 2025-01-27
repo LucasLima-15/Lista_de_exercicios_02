@@ -4,13 +4,33 @@ até que digite 0, que indica que terminou de informar os dias.
 O aluno deve implementar essa contagem utilizando as estruturas de repetição while, do while e for
 */
 
-using System.ComponentModel.Design;
+using System;
 
-int dia = 1;
-int q = 0;
-
-while (true)
-    Console.WriteLine("Digite os dias que você trabalhou (utilize '0' para encerrar):");
-    if (dia == 0) break;
-    q++;
-
+class Program
+{
+	static void Main()
+	{
+		int contador = 0;
+		int dia = 1;
+		
+		while (dia != 0)
+		{  
+		  Console.WriteLine("Digite o dia trabalhado (de 1 a 31, 0 encerra o programa): ");
+		  dia = int.Parse(Console.ReadLine());
+		  if (dia > 31)
+		  {
+		    Console.WriteLine("Dia inválido");
+		  }
+		  else if (dia < 0)
+		  {
+		    Console.WriteLine("Dia inválido");
+		  }  
+		  else if (dia != 0)
+		  {
+		    contador++;
+		  }
+	  }
+	  Console.WriteLine($"Você trabalhou {contador} dias do mês");
+	  
+	}
+}
