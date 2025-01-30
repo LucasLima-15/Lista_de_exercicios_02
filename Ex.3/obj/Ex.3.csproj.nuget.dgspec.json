@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pedro.lalima\\source\\repos\\Lista_de_exercicios _02\\Ex.1\\Ex.3\\Ex.3.csproj": {}
+    "C:\\Users\\pedro.lalima\\source\\repos\\Lista_de_exercicios_02\\Ex.3\\Ex.3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pedro.lalima\\source\\repos\\Lista_de_exercicios _02\\Ex.1\\Ex.3\\Ex.3.csproj": {
+    "C:\\Users\\pedro.lalima\\source\\repos\\Lista_de_exercicios_02\\Ex.3\\Ex.3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pedro.lalima\\source\\repos\\Lista_de_exercicios _02\\Ex.1\\Ex.3\\Ex.3.csproj",
+        "projectUniqueName": "C:\\Users\\pedro.lalima\\source\\repos\\Lista_de_exercicios_02\\Ex.3\\Ex.3.csproj",
         "projectName": "Ex.3",
-        "projectPath": "C:\\Users\\pedro.lalima\\source\\repos\\Lista_de_exercicios _02\\Ex.1\\Ex.3\\Ex.3.csproj",
+        "projectPath": "C:\\Users\\pedro.lalima\\source\\repos\\Lista_de_exercicios_02\\Ex.3\\Ex.3.csproj",
         "packagesPath": "C:\\Users\\pedro.lalima\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pedro.lalima\\source\\repos\\Lista_de_exercicios _02\\Ex.1\\Ex.3\\obj\\",
+        "outputPath": "C:\\Users\\pedro.lalima\\source\\repos\\Lista_de_exercicios_02\\Ex.3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

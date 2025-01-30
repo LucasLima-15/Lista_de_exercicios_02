@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pedro.lalima\\source\\repos\\Lista_de_exercicios _02\\Ex.1\\Ex.10\\Ex.10.csproj",
+      "projectUniqueName": "C:\\Users\\pedro.lalima\\source\\repos\\Lista_de_exercicios_02\\Ex.10\\Ex.10.csproj",
       "projectName": "Ex.10",
-      "projectPath": "C:\\Users\\pedro.lalima\\source\\repos\\Lista_de_exercicios _02\\Ex.1\\Ex.10\\Ex.10.csproj",
+      "projectPath": "C:\\Users\\pedro.lalima\\source\\repos\\Lista_de_exercicios_02\\Ex.10\\Ex.10.csproj",
       "packagesPath": "C:\\Users\\pedro.lalima\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pedro.lalima\\source\\repos\\Lista_de_exercicios _02\\Ex.1\\Ex.10\\obj\\",
+      "outputPath": "C:\\Users\\pedro.lalima\\source\\repos\\Lista_de_exercicios_02\\Ex.10\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

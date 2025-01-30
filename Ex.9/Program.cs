@@ -22,28 +22,26 @@ public class compras
         Console.WriteLine($"Você gastou R${total} em suas compra(s). ");    
     {
         /*Utilizando DO*/
-        int compras = 1;
-        int total = 0;
+        int comprasdo = 1;
+        int totaldo = 0;
         
         do
         {   
             Console.WriteLine("Digite o valor da compra (0 encerrar o programa): ");
-                compras = int.Parse(Console.ReadLine());
-            total += compras;
+                comprasdo = int.Parse(Console.ReadLine());
+            totaldo += comprasdo;
         }
         while (compras != 0);
         Console.WriteLine($"Você gastou R${total} em suas compra(s). ");    
     {
         /*Utilizando FOR*/
-        int compras = 1;
-        int total = 0;
+        int comprasfor = 1;
+        int totalfor = 0;
         
-        for (; compras != 0;)
+        for (; comprasfor != 0;)
         {   
             Console.WriteLine("Digite o valor da compra (0 encerrar o programa): ");
-                compras = int.Parse(Console.ReadLine());
-            total += compras;
+                comprasfor = int.Parse(Console.ReadLine());
+            totalfor += comprasfor;
         }    
         Console.WriteLine($"Você gastou R${total} em suas compra(s). ");    
-    }
-}

@@ -26,35 +26,35 @@ public class passagem
         Console.WriteLine($"Você vendeu total de {total} passagem(s). ");    
     {
         /*Utilizando DO*/
-        int passagem = 1;
-        int total = 0;
+        int passagem_do = 1;
+        int total_do = 0;
         
         do
         {   
             Console.WriteLine("Digite a quantidade de passagens vendidas (número negativo encerrar o programa): ");
-                passagem = int.Parse(Console.ReadLine());
-            if (passagem >= 0)
+                passagem_do = int.Parse(Console.ReadLine());
+            if (passagem_do >= 0)
             {
-                total += passagem;
+                total_do += passagem_do;
             }
         }
-        while (passagem >= 0);
-        Console.WriteLine($"Você vendeu total de {total} passagem(s). ");
+        while (passagem_do >= 0);
+        Console.WriteLine($"Você vendeu total de {total_do} passagem(s). ");
       {
         /*Utilizando FOR*/
-        int passagem = 1;
-        int total = 0;
+        int passagem_for = 1;
+        int total_for = 0;
         
         for (; passagem >= 0;)
         {   
             Console.WriteLine("Digite a quantidade de passagens vendidas (número negativo encerrar o programa): ");
-                passagem = int.Parse(Console.ReadLine());
-            if (passagem >= 0)
+                passagem_for = int.Parse(Console.ReadLine());
+            if (passagem_for >= 0)
             {
-                total += passagem;
+                total_for += passagem_for;
             }
         }
 
-        Console.WriteLine($"Você vendeu total de {total} passagem(s). ");    
+        Console.WriteLine($"Você vendeu total de {total_for} passagem(s). ");    
     }
 }

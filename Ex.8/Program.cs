@@ -28,38 +28,38 @@ public class Telefonemas
         Console.WriteLine($"Você passou {total} minutos em ligação de {vezes} telefonema(s). ");    
     {
         /*Utilizando DO*/
-        int tempo = 0;
-        int vezes = 0;
-        int total = 0;
+        int tempo_do = 0;
+        int vezes_do = 0;
+        int total_do = 0;
         
         do
         {   
             Console.WriteLine("Digite a duração do telefonema em minutos(números negativos para encerrar o programa): ");
-                tempo = int.Parse(Console.ReadLine());
-                if (tempo >= 0) 
+                tempo_do = int.Parse(Console.ReadLine());
+                if (tempo_do >= 0) 
                 {
-                    vezes++;
-                    total += tempo;
+                    vezes_do++;
+                    total_do += tempo_do;
                 }    
         }
-        while (tempo >= 0);
-        Console.WriteLine($"Você passou {total} minutos em ligação de {vezes} telefonema(s). ");    
+        while (tempo_do >= 0);
+        Console.WriteLine($"Você passou {total_do} minutos em ligação de {vezes_do} telefonema(s). ");    
     {
         /*Utilizando FOR*/
-        int tempo = 0;
-        int vezes = 0;
-        int total = 0;
+        int tempo_for = 0;
+        int vezes_for = 0;
+        int total_for = 0;
         
-        for (; tempo >= 0;)
+        for (; tempo_for >= 0;)
         {   
             Console.WriteLine("Digite a duração do telefonema em minutos(números negativos para encerrar o programa): ");
-                tempo = int.Parse(Console.ReadLine());
-                if (tempo >= 0) 
+                tempo_for = int.Parse(Console.ReadLine());
+                if (tempo_for >= 0) 
                 {
-                    vezes++;
-                    total += tempo;
+                    vezes_for++;
+                    total_for += tempo_for;
                 }    
         }    
-        Console.WriteLine($"Você passou {total} minutos em ligação de {vezes} telefonema(s). ");    
+        Console.WriteLine($"Você passou {total_for} minutos em ligação de {vezes_for} telefonema(s). ");    
     }
 }
